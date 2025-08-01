@@ -161,7 +161,7 @@ const Hero: FC = () => {
             style={{ aspectRatio: "16 / 9" }} // maintain aspect ratio of container
           >
             <Image
-              src="/path/to/your/image.jpg"
+              src="/assets/hero-image-colored.png"
               alt="Describe your image"
               width={800} // Use the actual image size or what fits your design
               height={600}
