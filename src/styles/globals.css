@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&family=Sora:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #0a0e23;
+}
+
+.hero-bg {
+  background: radial-gradient(
+    ellipse 100% 80% at 30% 0%,
+    #c8f3eb 0%,
+    #202748 60%,
+    #0a0e23 100%
+  );
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-hero-bg {
+  background: linear-gradient(270deg, #0296fe, #11a944, #ffb800, #0296fe);
+  background-size: 800% 800%;
+  animation: gradientShift 20s ease infinite;
+  border-radius: 1.5rem;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+  opacity: 0;
+}
