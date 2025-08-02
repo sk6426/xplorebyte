@@ -188,8 +188,8 @@ const Footer = () => {
         </div>
         <div className="border-t mt-12 pt-8 text-center border-gray-200 text-gray-600">
           <p className="font-sans">
-            © 2024 Voila. All rights reserved. | Privacy Policy | Terms of
-            Service
+            © 2017 XploreByte Solutions. All rights reserved. | Privacy Policy |
+            Terms of Service
           </p>
         </div>
       </div>
