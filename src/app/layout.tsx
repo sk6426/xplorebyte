@@ -37,6 +37,10 @@ const montserrat = Montserrat({
 export const metadata = {
   title: "XploreByte Solutions",
   description: "Elite SaaS and digital solutions for ambitious businesses.",
+  icons: [
+    { rel: "icon", url: "/assets/logo_7.svg", type: "image/svg+xml" },
+    { rel: "icon", url: "/favicon.png", type: "image/png", sizes: "32x32" },
+  ],
 };
 
 export default function RootLayout({
