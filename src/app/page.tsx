@@ -885,6 +885,8 @@ import InnovationSection from "../components/InnovationSection";
 import StatsSection from "../components/StatsSection";
 import WhyChooseUsSection from "../components/WhyChooseUsSection";
 import CTASection from "../components/CTASection";
+// import DigitalSerenity from "../components/DigitalSerenity";
+
 export default function Home() {
   return (
     <>
@@ -899,6 +901,7 @@ export default function Home() {
         <Services />
         <WhyXploreByte />
         <Testimonials />
+        {/* <DigitalSerenity /> */}
       </main>
       <Footer />
     </>
