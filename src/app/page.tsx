@@ -874,6 +874,7 @@
 // //     </main>
 // //   );
 // // }
+"use client";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 
@@ -885,12 +886,14 @@ import InnovationSection from "../components/InnovationSection";
 import StatsSection from "../components/StatsSection";
 import WhyChooseUsSection from "../components/WhyChooseUsSection";
 import CTASection from "../components/CTASection";
+
 // import DigitalSerenity from "../components/DigitalSerenity";
 
 export default function Home() {
   return (
     <>
       <Header />
+
       <main className="hero-bg min-h-screen flex flex-col">
         <Hero />
         <InnovationSection />

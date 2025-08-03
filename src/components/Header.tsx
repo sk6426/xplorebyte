@@ -51,7 +51,12 @@ const Header: FC = () => {
             className="h-8 w-auto"
           />
           <span className="flex items-center space-x-3 group">
-            <span className="text-white">XploreByte</span>
+            <span className="text-white text-xl font-bold font-[Poppins,Montserrat,sans-serif] tracking-tight">
+              XploreByte
+            </span>
+            {/* <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent text-2xl font-extrabold tracking-tight font-[Sora,sans-serif]">
+              XploreByte
+            </span> */}
           </span>
         </a>
 
