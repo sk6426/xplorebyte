@@ -40,6 +40,6 @@ COPY --from=builder --chown=node:node /app/.next/static ./.next/static
 
 USER node
 
-EXPOSE 3014
+EXPOSE 3018
 
 CMD ["node", "server.js"]
