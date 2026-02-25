@@ -1,0 +1,12 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        { "type": "host", "value": "xplorebytesolutions.com" }
+      ],
+      "destination": "https://xplorebyte.com/$1",
+      "permanent": true
+    }
+  ]
+}
